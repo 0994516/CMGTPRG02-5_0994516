@@ -10,6 +10,29 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size:cover ;
+    background-size: cover;
     height: 600px;
+}
+.deck-profile
+{
+    background-image:
+        linear-gradient(to bottom, rgba(245, 246, 252, 0), rgb(155, 155, 155)), 
+        url('https://www.magamercatino.it/1000/100-sleeves-standard-ultra-pro-magic-the-gathering-classical-card-back.jpg')
+    ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:300px;
+}
+.deck-description
+{
+    display: none;
+}
+.deck-profile:hover
+{
+    height: 500px;
+}
+.deck-profile:hover .deck-description
+{
+    display: block;
 }

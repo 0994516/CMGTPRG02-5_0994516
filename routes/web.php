@@ -16,7 +16,7 @@ use App\Http\Controllers\DecksController;
 
 Route::get('/', [PagesController::class, 'index']);
 
-Route::resource("/Decks", DecksController::class);
+Route::resource('/Decks', DecksController::class);
 
 Auth::routes();
 
